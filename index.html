@@ -1,0 +1,1407 @@
+<!doctype html>
+<html class="no-js"  lang="en">
+
+	<head>
+		<!-- META DATA -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Nur Al-Haramain Islamic Pilgrimage Agency - Luxury 5-Star VIP Hajj, Umrah, and Ziyarat travel packages with sacred serenity and scholarly guidance.">
+
+		<!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+
+		<!-- TITLE OF SITE -->
+		<title data-i18n="site_title">Nur Al-Haramain | Luxury Islamic Pilgrimage (Hajj & Umrah)</title>
+
+		<!-- Instant RTL / FOUC Prevention Script -->
+		<script>
+			// Force manual scroll restoration and remove any anchor hash so page always opens at the hero container on reload/refresh
+			if (window.history && window.history.scrollRestoration) {
+				window.history.scrollRestoration = 'manual';
+			}
+			if (window.location.hash) {
+				window.history.replaceState('', document.title, window.location.pathname + window.location.search);
+			}
+			window.addEventListener('load', function() {
+				setTimeout(function() { window.scrollTo(0, 0); }, 10);
+				setTimeout(function() { window.scrollTo(0, 0); }, 100);
+			});
+			function scrollToSection(id) {
+				var target = document.getElementById(id);
+				if (target) {
+					if (typeof jQuery !== 'undefined') {
+						jQuery('html, body').stop().animate({
+							scrollTop: jQuery(target).offset().top - 1
+						}, 1200, 'easeInOutExpo');
+					} else {
+						target.scrollIntoView({ behavior: 'smooth' });
+					}
+				}
+			}
+			(function() {
+				try {
+					var lang = localStorage.getItem('nuralharamain_lang') || 'en';
+					if (lang === 'ar') {
+						document.documentElement.setAttribute('dir', 'rtl');
+						document.documentElement.setAttribute('lang', 'ar');
+						document.write('<style id="rtl-fouc-fix">body { opacity: 0 !important; transition: opacity 0.25s ease-in; }</style>');
+						setTimeout(function() {
+							var el = document.getElementById('rtl-fouc-fix');
+							if (el) el.remove();
+							if (document.body) document.body.style.opacity = '1';
+						}, 1200);
+					}
+				} catch(e) {}
+			})();
+		</script>
+
+		<!-- favicon img -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+
+		<!--font-awesome.min.css-->
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+
+		<!--animate.css-->
+		<link rel="stylesheet" href="assets/css/animate.css" />
+
+		<!--hover.css-->
+		<link rel="stylesheet" href="assets/css/hover-min.css">
+
+		<!--datepicker.css-->
+		<link rel="stylesheet"  href="assets/css/datepicker.css" >
+
+		<!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css"/>
+
+		<!-- range css-->
+        <link rel="stylesheet" href="assets/css/jquery-ui.min.css" />
+
+		<!--bootstrap.min.css-->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css"/>
+
+		<!--style.css-->
+		<link rel="stylesheet" href="assets/css/style.css" />
+
+		<!--responsive.css-->
+		<link rel="stylesheet" href="assets/css/responsive.css" />
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<style>
+			@keyframes heroStaggerUp {
+				0% {
+					opacity: 0;
+					transform: translate3d(0, 45px, 0);
+				}
+				100% {
+					opacity: 1;
+					transform: translate3d(0, 0, 0);
+				}
+			}
+			.hero-stagger-box h2 {
+				opacity: 0;
+				animation: heroStaggerUp 1s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;
+			}
+			.hero-stagger-box p {
+				opacity: 0;
+				animation: heroStaggerUp 1s cubic-bezier(0.16, 1, 0.3, 1) 0.7s forwards;
+			}
+			.hero-stagger-box .about-btn {
+				opacity: 0;
+				animation: heroStaggerUp 1s cubic-bezier(0.16, 1, 0.3, 1) 1.2s forwards;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--[if lte IE 9]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+		<![endif]-->
+
+		<!-- main-menu Start -->
+		<header class="top-area">
+			<div class="header-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="logo">
+								<a href="index.html">
+									<span data-i18n="logo_text">Nur Al-Haramain </span><span data-i18n="logo_span">Pilgrimage</span>
+								</a>
+							</div><!-- /.logo-->
+						</div><!-- /.col-->
+						<div class="col-sm-9">
+							<div class="main-menu">
+								<!-- Start Attribute Navigation for VIP Actions & Language -->
+								<div class="attr-nav">
+									<ul>
+										<li>
+											<button id="lang-toggle-btn" class="lang-switch-btn" onclick="toggleLanguage()" data-i18n="lang_btn"><i class="fa fa-globe"></i> AR | EN</button>
+										</li>
+										<li>
+											<button class="book-btn" onclick="scrollToSection('pack')"><i class="fa fa-bookmark"></i> <span data-i18n="nav_book_btn">Book Your Umrah</span></button>
+										</li>
+									</ul>
+								</div>
+								<!-- End Attribute Navigation -->
+
+								<!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+										<i class="fa fa-bars"></i>
+									</button><!-- / button-->
+								</div><!-- /.navbar-header-->
+								<div class="collapse navbar-collapse">		  
+									<ul class="nav navbar-nav navbar-right">
+										<li class="smooth-menu"><a href="#home" data-i18n="nav_home">Home</a></li>
+										<li class="smooth-menu"><a href="#services" data-i18n="nav_services">Services</a></li>
+										<li class="smooth-menu"><a href="#gallery" data-i18n="nav_gallery">Sacred Sites</a></li>
+										<li class="smooth-menu"><a href="#pack" data-i18n="nav_packages">VIP Packages</a></li>
+										<li class="smooth-menu"><a href="#spo" data-i18n="nav_special">Ramadan Special</a></li>
+										<li class="smooth-menu"><a href="#blog" data-i18n="nav_guidance">Guidance</a></li>
+										<li class="smooth-menu"><a href="#subs" data-i18n="nav_subscribe">Subscribe</a></li>
+									</ul>
+								</div><!-- /.navbar-collapse -->
+							</div><!-- /.main-menu-->
+						</div><!-- /.col-->
+					</div><!-- /.row -->
+					<div class="home-border"></div><!-- /.home-border-->
+				</div><!-- /.container-->
+			</div><!-- /.header-area -->
+		</header><!-- /.top-area-->
+		<!-- main-menu End -->
+
+		
+		<!--about-us start -->
+		<section id="home" class="about-us">
+			<div class="container">
+				<div class="about-us-content">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="single-about-us">
+								<div class="about-us-txt hero-stagger-box">
+									<h2>
+										<span data-i18n="hero_title">Experience Sacred Journeys with </span><span data-i18n="hero_title_span">Spiritual Serenity</span>
+									</h2>
+									<p style="color: #fff; font-size: 20px; max-width: 750px; margin-top: 20px; text-shadow: 0 2px 8px rgba(0,0,0,0.4); line-height: 1.6;" data-i18n="hero_desc">
+										Embark on a blessed Hajj, Umrah, or Ziyarat journey with VIP 5-star accommodations overlooking Al-Masjid al-Haram, guided by world-renowned Islamic scholars.
+									</p>
+									<div class="about-btn">
+										<button class="about-view" onclick="scrollToSection('pack')" data-i18n="hero_btn">
+											Explore VIP Packages
+										</button>
+									</div><!--/.about-btn-->
+								</div><!--/.about-us-txt-->
+							</div><!--/.single-about-us-->
+						</div><!--/.col-->
+					</div><!--/.row-->
+				</div><!--/.about-us-content-->
+			</div><!--/.container-->
+		</section><!--/.about-us-->
+		<!--about-us end -->
+
+		<!--travel-box start-->
+		<section class="travel-box">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-12">
+        				<div class="single-travel-boxes">
+        					<div id="desc-tabs" class="desc-tabs">
+
+								<ul class="nav nav-tabs" role="tablist">
+									<li role="presentation" class="active">
+									 	<a href="#tours" aria-controls="tours" role="tab" data-toggle="tab">
+									 		<i class="fa fa-moon-o"></i>
+									 		<span data-i18n="tab_umrah">Umrah Packages</span>
+									 	</a>
+									</li>
+
+									<li role="presentation">
+										<a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">
+											<i class="fa fa-star"></i>
+											<span data-i18n="tab_hajj">VIP Hajj Packages</span>
+										</a>
+									</li>
+
+									<li role="presentation">
+									 	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">
+									 		<i class="fa fa-compass"></i>
+									 		<span data-i18n="tab_ziyarat">Ziyarat & Heritage</span>
+									 	</a>
+									</li>
+								</ul>
+
+								<!-- Tab panes -->
+								<div class="tab-content">
+
+									<div role="tabpanel" class="tab-pane active fade in" id="tours">
+										<div class="tab-para">
+											<!-- Row 1: Destination, Tier, Departure City, Room Type -->
+											<div class="row">
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="search_dest_label">Select Sacred Destination</h2>
+														<div class="travel-select-icon">
+															<select class="form-control">
+															  	<option value="mecca-medina" selected data-i18n="dest_opt_mecca">Mecca & Medina (Royal Haram Front)</option>
+															  	<option value="mecca-vip" data-i18n="dest_opt_vip">Mecca Haram-View VIP Suite</option>
+															  	<option value="medina-serenity" data-i18n="dest_opt_medina">Medina Rawdah Serenity Suite</option>
+															  	<option value="ramadan-combo" data-i18n="dest_opt_ramadan">Combined Ramadan Special Umrah</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="search_tier_label">Package Tier</h2>
+														<div class="travel-select-icon">
+															<select class="form-control">
+															  	<option value="5star-vip" selected data-i18n="tier_opt_vip">Royal 5-Star VIP Haram Doorstep</option>
+															  	<option value="premium" data-i18n="tier_opt_premium">Premium Guided Group Package</option>
+															  	<option value="family" data-i18n="tier_opt_family">Private Family Umrah Suite</option>
+															  	<option value="economy" data-i18n="tier_opt_eco">Economy Express Umrah</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="search_dep_city_label">Departure City / Airport</h2>
+														<div class="travel-select-icon">
+															<select class="form-control">
+															  	<option value="riyadh" selected data-i18n="dep_city_1">Riyadh / King Khalid Int. Airport</option>
+															  	<option value="jeddah" data-i18n="dep_city_2">Jeddah / King Abdulaziz Int. Airport</option>
+															  	<option value="dubai" data-i18n="dep_city_3">Dubai / DXB International Airport</option>
+															  	<option value="alexandria" data-i18n="dep_city_4">Alexandria / Borg El Arab VIP Airport</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="search_room_label">Accommodation / Room</h2>
+														<div class="travel-select-icon">
+															<select class="form-control">
+															  	<option value="suite-haram" selected data-i18n="room_opt_1">Private Family Suite (Haram View)</option>
+															  	<option value="double-vip" data-i18n="room_opt_2">Royal Double Room (2 Beds VIP)</option>
+															  	<option value="triple-deluxe" data-i18n="room_opt_3">Triple Sharing Deluxe Room</option>
+															  	<option value="quad-family" data-i18n="room_opt_4">Quad Family Room (4 Beds)</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<!-- Row 2: Pilgrims, Departure Date, Return Date, Duration -->
+											<div class="row" style="margin-top: 15px;">
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="search_pilgrims_label">Pilgrims</h2>
+														<div class="travel-select-icon">
+															<select class="form-control">
+															  	<option value="2" selected data-i18n="pil_2">2 Pilgrims (Couple / Private)</option>
+															  	<option value="1" data-i18n="pil_1">1 Pilgrim (Solo Devotee)</option>
+															  	<option value="4" data-i18n="pil_4">4 Pilgrims (Family Suite)</option>
+															  	<option value="10" data-i18n="pil_10">Group Delegation (10+ Pilgrims)</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="search_dep_label">Departure Date</h2>
+														<div class="travel-check-icon">
+															<form action="#">
+																<input type="text" name="check_in" class="form-control" data-toggle="datepicker" value="15 - 08 - 2026" placeholder="15 - 08 - 2026" data-i18n-placeholder="dep_placeholder">
+															</form>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="search_ret_label">Return Date</h2>
+														<div class="travel-check-icon">
+															<form action="#">
+																<input type="text" name="check_out" class="form-control" data-toggle="datepicker" value="28 - 08 - 2026" placeholder="28 - 08 - 2026" data-i18n-placeholder="ret_placeholder">
+															</form>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="search_dur_label">Duration & Transport</h2>
+														<div class="travel-select-icon">
+															<select class="form-control">
+															  	<option value="10-train" selected data-i18n="dur_10_train">10 Days + Haramain VIP Train</option>
+															  	<option value="7-suv" data-i18n="dur_7_suv">7 Days Express + Private SUV</option>
+															  	<option value="14-std" data-i18n="dur_14_std">14 Days Recommended Package</option>
+															  	<option value="21-ramadan" data-i18n="dur_21_ramadan">21 Days Full Ramadan Itikaf</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<!-- Row 3: Budget Slider & Search Button -->
+											<div class="row" style="margin-top: 25px; border-top: 1px solid rgba(212, 175, 55, 0.3); padding-top: 25px;">
+												<div class="col-md-7 col-sm-12">
+													<div class="travel-budget">
+														<h3 data-i18n="budget_label">Estimated Budget Per Pilgrim</h3>
+														<div class="price_filter">
+															   <div id="slider-range"></div>
+															   <div class="price_slider_amount">
+																   <input type="text" id="amount" name="price" value="85,000 EGP - 180,000 EGP" placeholder="85,000 EGP - 180,000 EGP" data-i18n-placeholder="budget_placeholder" />
+															   </div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-5 col-sm-12">
+													<div class="about-btn travel-mrt-0" style="text-align: center; margin-top: 15px;">
+														<button class="about-view travel-btn" onclick="scrollToSection('pack')" style="width: 100%; max-width: 320px; font-size: 15px; font-weight: 700;">
+															<i class="fa fa-search"></i> <span data-i18n="search_btn">Search Umrah Packages</span>	
+														</button>
+													</div>
+												</div>
+											</div>
+										</div><!--/.tab-para-->
+									</div><!--/.tabpannel-->
+
+									<div role="tabpanel" class="tab-pane fade in" id="hotels">
+										<div class="tab-para">
+											<!-- Row 1: Hajj Camp, Hotel, Flight, Scholar -->
+											<div class="row">
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="hajj_camp_label">Hajj Camp & Location</h2>
+														<div class="travel-select-icon">
+															<select class="form-control">
+															  	<option value="mina-vip-a" selected data-i18n="hajj_camp_1">Mina & Arafat Royal VIP Camp (Tier A)</option>
+															  	<option value="haram-front" data-i18n="hajj_camp_2">Majestic Haram-Front Hospitality Suite</option>
+															  	<option value="exec-tent" data-i18n="hajj_camp_3">Executive Air-Conditioned Private Tent</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="hajj_hotel_label">Hotel & Suite Type</h2>
+														<div class="travel-select-icon">
+															<select class="form-control">
+															  	<option value="clock-tower" selected data-i18n="hajj_hotel_1">Clock Tower Royal Suite (Kaaba View)</option>
+															  	<option value="raffles" data-i18n="hajj_hotel_2">Raffles Makkah Palace 5-Star VIP</option>
+															  	<option value="oberoi" data-i18n="hajj_hotel_3">The Oberoi Madina Sanctuary Suite</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="hajj_flight_label">Departure City / Flight</h2>
+														<div class="travel-select-icon">
+															<select class="form-control">
+															  	<option value="saudia-emirates" selected data-i18n="hajj_flight_1">VIP Direct Flight (Saudia / Emirates)</option>
+															  	<option value="riyadh-vip" data-i18n="hajj_flight_2">Riyadh / King Khalid VIP Terminal</option>
+															  	<option value="dubai-first" data-i18n="hajj_flight_3">Dubai International First Class Hub</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="hajj_scholar_label">Scholarly Guidance</h2>
+														<div class="travel-select-icon">
+															<select class="form-control">
+															  	<option value="mufti-leader" selected data-i18n="hajj_scholar_1">Dedicated Scholar & Mufti Group Leader</option>
+															  	<option value="bilingual-guide" data-i18n="hajj_scholar_2">Bilingual Islamic Historian & Guide</option>
+															  	<option value="private-concierge" data-i18n="hajj_scholar_3">Private Family Religious Concierge</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<!-- Row 2: Pilgrims, Dep Date, Ret Date, Duration -->
+											<div class="row" style="margin-top: 15px;">
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="hajj_pilgrims_label">Number of Pilgrims</h2>
+														<div class="travel-select-icon">
+															<select class="form-control">
+															  	<option value="2" selected data-i18n="hajj_pil_2">2 Pilgrims (Private Couple Suite)</option>
+															  	<option value="1" data-i18n="hajj_pil_1">1 Pilgrim (Solo VIP Devotee)</option>
+															  	<option value="4" data-i18n="hajj_pil_4">4 Pilgrims (Family Hajj Suite)</option>
+															  	<option value="6" data-i18n="hajj_pil_6">6+ Group Delegation (Private Tent)</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="hajj_dep_label">Hajj Departure Date</h2>
+														<div class="travel-check-icon">
+															<form action="#">
+																<input type="text" name="hajj_check_in" class="form-control" data-toggle="datepicker" value="01 - 06 - 2026" placeholder="01 - 06 - 2026" data-i18n-placeholder="hajj_dep_ph">
+															</form>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="hajj_ret_label">Hajj Return Date</h2>
+														<div class="travel-check-icon">
+															<form action="#">
+																<input type="text" name="hajj_check_out" class="form-control" data-toggle="datepicker" value="16 - 06 - 2026" placeholder="16 - 06 - 2026" data-i18n-placeholder="hajj_ret_ph">
+															</form>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="hajj_dur_label">Hajj Duration & Tier</h2>
+														<div class="travel-select-icon">
+															<select class="form-control">
+															  	<option value="14-express" selected data-i18n="hajj_dur_14">14 Days Express VIP Hajj Package</option>
+															  	<option value="21-comp" data-i18n="hajj_dur_21">21 Days Comprehensive Spiritual Hajj</option>
+															  	<option value="30-full" data-i18n="hajj_dur_30">30 Days Complete Season Residence</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<!-- Row 3: Budget Slider & Search Button -->
+											<div class="row" style="margin-top: 25px; border-top: 1px solid rgba(212, 175, 55, 0.3); padding-top: 25px;">
+												<div class="col-md-7 col-sm-12">
+													<div class="travel-budget">
+														<h3 data-i18n="hajj_budget_label">Estimated Budget Per Pilgrim</h3>
+														<div class="price_filter">
+															   <div id="slider-range-hajj"></div>
+															   <div class="price_slider_amount">
+																   <input type="text" id="amount-hajj" name="price_hajj" value="350,000 EGP - 550,000 EGP" placeholder="350,000 EGP - 550,000 EGP" data-i18n-placeholder="hajj_budget_ph" />
+															   </div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-5 col-sm-12">
+													<div class="about-btn travel-mrt-0" style="text-align: center; margin-top: 15px;">
+														<button class="about-view travel-btn" onclick="scrollToSection('pack')" style="width: 100%; max-width: 320px; font-size: 15px; font-weight: 700;">
+															<i class="fa fa-bookmark"></i> <span data-i18n="hajj_search_btn">Search VIP Hajj Packages</span>	
+														</button>
+													</div>
+												</div>
+											</div>
+										</div><!--/.tab-para-->
+									</div><!--/.tabpannel-->
+
+									<div role="tabpanel" class="tab-pane fade in" id="flights">
+										<div class="tab-para">
+											<!-- Row 1: Destination, Expedition, Dep City, Hotel Tier -->
+											<div class="row">
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="ziy_dest_label">Heritage Destination</h2>
+														<div class="travel-select-icon">
+															<select class="form-control">
+															  	<option value="jerusalem" selected data-i18n="ziy_dest_1">Jerusalem - Al-Aqsa & Dome of the Rock</option>
+															  	<option value="andalusia" data-i18n="ziy_dest_2">AlUla, Madain Saleh & Historic Taif (Saudi Arabia)</option>
+															  	<option value="istanbul" data-i18n="ziy_dest_3">Istanbul & Ottoman Golden Palaces</option>
+															  	<option value="cairo" data-i18n="ziy_dest_4">Cairo, Fustat & Islamic Architecture</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-2 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="ziy_exp_label">Historical Expedition</h2>
+														<div class="travel-select-icon">
+															<select class="form-control ">
+															  	<option value="golden-spain" selected data-i18n="ziy_exp_1">Sacred Saudi Arabia Islamic Heritage & AlUla Trek</option>
+															  	<option value="aqsa-tour" data-i18n="ziy_exp_2">Al-Aqsa Sanctuary Spiritual Retreat</option>
+															  	<option value="ottoman-tour" data-i18n="ziy_exp_3">Imperial Ottoman History & Bosphorus</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-2 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="ziy_dep_city_label">Departure City</h2>
+														<div class="travel-select-icon">
+															<select class="form-control ">
+															  	<option value="hub-all" selected data-i18n="ziy_dep_1">Cairo / Riyadh / Jeddah / Dammam</option>
+															  	<option value="hub-riyadh" data-i18n="ziy_dep_2">Riyadh Direct Heritage Flight</option>
+															  	<option value="hub-dubai" data-i18n="ziy_dep_3">Dubai International Airport Hub</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="ziy_hotel_label">Hotel & Hospitality Tier</h2>
+														<div class="travel-select-icon">
+															<select class="form-control">
+															  	<option value="boutique-5star" selected data-i18n="ziy_hotel_1">5-Star Historic Boutique Hotels & Palaces</option>
+															  	<option value="royal-palace" data-i18n="ziy_hotel_2">Royal Palace Sanctuary Accommodations</option>
+															  	<option value="premium-city" data-i18n="ziy_hotel_3">Premium Guided City Center Hotels</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<!-- Row 2: Travelers, Dep Date, Ret Date, Guide Language -->
+											<div class="row" style="margin-top: 15px;">
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="ziy_travelers_label">Number of Travelers</h2>
+														<div class="travel-select-icon">
+															<select class="form-control">
+															  	<option value="4" selected data-i18n="ziy_trv_4">Family / Group (4 Travelers)</option>
+															  	<option value="2" data-i18n="ziy_trv_2">Couple Delegation (2 Travelers)</option>
+															  	<option value="1" data-i18n="ziy_trv_1">Solo Explorer (1 Traveler)</option>
+															  	<option value="10" data-i18n="ziy_trv_10">Group Expedition (10+ Travelers)</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="ziy_dep_label">Departure Date</h2>
+														<div class="travel-check-icon">
+															<form action="#">
+																<input type="text" name="ziy_check_in" class="form-control" data-toggle="datepicker" value="10 - 10 - 2026" placeholder="10 - 10 - 2026" data-i18n-placeholder="ziy_dep_ph">
+															</form>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="ziy_ret_label">Return Date</h2>
+														<div class="travel-check-icon">
+															<form action="#">
+																<input type="text" name="ziy_check_out" class="form-control" data-toggle="datepicker" value="20 - 10 - 2026" placeholder="20 - 10 - 2026" data-i18n-placeholder="ziy_ret_ph">
+															</form>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-6 col-xs-12">
+													<div class="single-tab-select-box">
+														<h2 data-i18n="ziy_guide_label">Tour Guide Language</h2>
+														<div class="travel-select-icon">
+															<select class="form-control">
+															  	<option value="bilingual" selected data-i18n="ziy_guide_1">Certified Islamic Historian (Arabic / English)</option>
+															  	<option value="arabic-only" data-i18n="ziy_guide_2">Dedicated Arabic Mufti & Historian</option>
+															  	<option value="english-only" data-i18n="ziy_guide_3">English Speaking Islamic Heritage Expert</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<!-- Row 3: Budget Slider & Search Button -->
+											<div class="row" style="margin-top: 25px; border-top: 1px solid rgba(212, 175, 55, 0.3); padding-top: 25px;">
+												<div class="col-md-7 col-sm-12">
+													<div class="travel-budget">
+														<h3 data-i18n="ziy_budget_label">Estimated Budget Per Traveler</h3>
+														<div class="price_filter">
+															   <div id="slider-range-ziyarat"></div>
+															   <div class="price_slider_amount">
+																   <input type="text" id="amount-ziyarat" name="price_ziyarat" value="65,000 EGP - 130,000 EGP" placeholder="65,000 EGP - 130,000 EGP" data-i18n-placeholder="ziy_budget_ph" />
+															   </div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-5 col-sm-12">
+													<div class="about-btn travel-mrt-0" style="text-align: center; margin-top: 15px;">
+														<button class="about-view travel-btn" onclick="scrollToSection('pack')" style="width: 100%; max-width: 320px; font-size: 15px; font-weight: 700;">
+															<i class="fa fa-globe"></i> <span data-i18n="ziy_search_btn">Explore Heritage Tours</span>	
+														</button>
+													</div>
+												</div>
+											</div>
+										</div><!--/.tab-para-->
+									</div><!--/.tabpannel-->
+
+								</div><!--/.tab content-->
+        				</div><!--/.desc-tabs-->
+        			</div><!--/.single-travel-box-->
+        		</div><!--/.col-->
+        	</div><!--/.row-->
+        	</div><!--/.container-->
+        </section><!--/.travel-box-->
+		<!--travel-box end-->
+
+        <!--service start-->
+		<section id="services" class="service">
+			<div class="container">
+				<div class="gallary-header text-center" style="margin-bottom: 50px;">
+					<h2 data-i18n="services_title">Why Choose Nur Al-Haramain</h2>
+					<p data-i18n="services_subtitle">We are dedicated to serving the Guests of Allah with dignity, luxury, and authentic Islamic guidance.</p>
+				</div>
+				<div class="service-counter text-center">
+					<div class="row">
+						<div class="col-md-4 col-sm-4">
+							<div class="single-service-box">
+								<div class="service-img">
+									<i class="fa fa-id-card-o" style="font-size: 42px; color: #0d5c46;"></i>
+								</div><!--/.service-img-->
+								<div class="service-content">
+									<h2><a href="#" data-i18n="srv_1_title">VIP Visa & Direct Flights</a></h2>
+									<p data-i18n="srv_1_desc">Fast-track Umrah & Hajj visa processing with direct 5-star airline bookings on Saudi Arabian Airlines and Emirates.</p>
+								</div><!--/.service-content-->
+							</div><!--/.single-service-box-->
+						</div><!--/.col-->
+
+						<div class="col-md-4 col-sm-4">
+							<div class="single-service-box">
+								<div class="service-img">
+									<i class="fa fa-building-o" style="font-size: 42px; color: #d4af37;"></i>
+								</div><!--/.service-img-->
+								<div class="service-content">
+									<h2><a href="#" data-i18n="srv_2_title">5-Star Haram-View Hotels</a></h2>
+									<p data-i18n="srv_2_desc">Stay in royal luxury suites located right at the doorstep of Al-Masjid al-Haram in Mecca and Al-Masjid an-Nabawi in Medina.</p>
+								</div><!--/.service-content-->
+							</div><!--/.single-service-box-->
+						</div><!--/.col-->
+
+						<div class="col-md-4 col-sm-4">
+							<div class="single-service-box">
+								<div class="service-img">
+									<i class="fa fa-book" style="font-size: 42px; color: #0d5c46;"></i>
+								</div><!--/.service-img-->
+								<div class="service-content">
+									<h2><a href="#" data-i18n="srv_3_title">Scholarly Guidance</a></h2>
+									<p data-i18n="srv_3_desc">Every group is accompanied by multilingual, qualified Islamic scholars providing spiritual lectures and step-by-step ritual guidance.</p>
+								</div><!--/.service-content-->
+							</div><!--/.single-service-box-->
+						</div><!--/.col-->
+
+					</div><!--/.row-->
+				</div><!--/.statistics-counter-->	
+			</div><!--/.container-->
+		</section><!--/.service-->
+		<!--service end-->
+
+		<!--gallery start-->
+		<section id="gallery" class="gallery">
+			<div class="container">
+				<div class="gallery-details">
+					<div class="gallary-header text-center">
+						<h2><span data-i18n="gallery_title">Sacred </span><span data-i18n="gallery_title_span">Highlights</span></h2>
+						<p data-i18n="gallery_subtitle">
+							Glimpse the breathtaking spiritual moments, holy sanctuaries, and timeless Islamic architecture from our guided journeys.
+						</p>
+					</div><!--/.gallery-header-->
+					<div class="gallery-content">
+						<div class="filtr-container">
+							<div class="row">
+
+								<div class="col-md-6">
+									<div class="filtr-item">
+										<img src="assets/images/gallary/g1.jpg" alt="Holy Kaaba in Mecca" />
+										<div class="item-title">
+											<a href="#" data-i18n="gal_1_title">The Holy Kaaba & Grand Mosque</a>
+											<p><span data-i18n="gal_1_loc">Mecca, Saudi Arabia</span><span data-i18n="gal_1_tag"><i class="fa fa-star" style="color:#d4af37;"></i> 5-Star Sanctuary</span></p>
+										</div><!-- /.item-title -->
+									</div><!-- /.filtr-item -->
+								</div><!-- /.col -->
+
+								<div class="col-md-6">
+									<div class="filtr-item">
+										<img src="assets/images/gallary/g2.jpg" alt="Prophet Mosque in Medina" />
+										<div class="item-title">
+											<a href="#" data-i18n="gal_2_title">Al-Masjid an-Nabawi Courtyards</a>
+											<p><span data-i18n="gal_2_loc">Medina, Saudi Arabia</span><span data-i18n="gal_2_tag"><i class="fa fa-heart" style="color:#d4af37;"></i> Blessed Rawdah</span></p>
+										</div><!-- /.item-title -->
+									</div><!-- /.filtr-item -->
+								</div><!-- /.col -->
+
+								<div class="col-md-4">
+									<div class="filtr-item">
+										<img src="assets/images/gallary/g3.jpg" alt="Al-Aqsa Sanctuary Jerusalem" />
+										<div class="item-title">
+											<a href="#" data-i18n="gal_3_title">Al-Aqsa & Dome of the Rock</a>
+											<p><span data-i18n="gal_3_loc">Jerusalem</span></p>
+										</div><!-- /.item-title -->
+									</div><!-- /.filtr-item -->
+								</div><!-- /.col -->
+
+								<div class="col-md-4">
+									<div class="filtr-item">
+										<img src="assets/images/gallary/g4.jpg" alt="Ramadan Night Prayers in Mecca" />
+										<div class="item-title">
+											<a href="#" data-i18n="gal_4_title">Laylat al-Qadr Prayers</a>
+											<p><span data-i18n="gal_4_loc">Mecca Haram</span></p>
+										</div><!-- /.item-title -->
+									</div><!-- /.filtr-item -->
+								</div><!-- /.col -->
+
+								<div class="col-md-4">
+									<div class="filtr-item">
+										<img src="assets/images/gallary/g5.jpg" alt="Jabal al-Nour & Cave Hira" />
+										<div class="item-title">
+											<a href="#" data-i18n="gal_5_title">Jabal al-Nour & Cave Hira</a>
+											<p><span data-i18n="gal_5_loc">Historic Ziyarat</span></p>
+										</div><!-- /.item-title -->
+									</div><!-- /.filtr-item -->
+								</div><!-- /.col -->
+
+								<div class="col-md-12">
+									<div class="filtr-item" style="max-height: 400px;">
+										<img src="assets/images/gallary/g6.jpg" alt="Alhambra Palace Granada Spain" style="height: 400px; width: 100%; object-fit: cover;" />
+										<div class="item-title">
+											<a href="#" data-i18n="gal_6_title">Historic AlUla & Madain Saleh Heritage Sanctuary</a>
+											<p><span data-i18n="gal_6_loc">AlUla & Medina, Saudi Arabia</span><span data-i18n="gal_6_tag"><i class="fa fa-compass" style="color:#d4af37;"></i> VIP Guided Tour</span></p>
+										</div><!-- /.item-title -->
+									</div><!-- /.filtr-item -->
+								</div><!-- /.col -->
+
+							</div><!-- /.row -->
+						</div><!-- /.filtr-container-->
+					</div><!-- /.gallery-content -->
+				</div><!--/.gallery-details-->
+			</div><!--/.container-->
+		</section><!--/.gallery-->
+		<!--gallery end-->
+
+		<!--discount-offer start-->
+		<section class="discount-offer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="dicount-offer-content text-center">
+							<h2 data-i18n="discount_title">Ramadan Early-Bird Umrah Special: Up to 25% Off!</h2>
+							<p style="color: rgba(255,255,255,0.9); font-size: 18px; margin-top: 15px;" data-i18n="discount_desc">Book your VIP Haram-view suite for Ramadan 2026 before spots fill up. Includes private Iftar & Suhoor buffet.</p>
+							<div class="campaign-timer">
+								<div id="timer">
+									<div class="time time-after" id="days">
+										<span>14</span>
+									</div><!--/.time-->
+									<div class="time time-after" id="hours">
+										<span>08</span>
+									</div><!--/.time-->
+									<div class="time time-after" id="minutes">
+										<span>35</span>
+									</div><!--/.time-->
+									<div class="time" id="seconds">
+										<span>50</span>
+									</div><!--/.time-->
+								</div><!--/.timer-->
+							</div><!--/.campaign-timer-->
+							<div class="about-btn">
+								<button class="about-view discount-offer-btn" onclick="scrollToSection('pack')" data-i18n="discount_btn">
+									claim offer now
+								</button>
+							</div><!--/.about-btn-->
+						</div><!-- /.dicount-offer-content-->
+					</div><!-- /.col-->
+				</div><!-- /.row-->
+			</div><!-- /.container-->
+		</section><!-- /.discount-offer-->
+		<!--discount-offer end-->
+
+		<!--packages start-->
+		<section id="pack" class="packages">
+			<div class="container">
+				<div class="gallary-header text-center">
+					<h2><span data-i18n="packages_title">Our Sacred </span><span data-i18n="packages_title_span">Packages</span></h2>
+					<p data-i18n="packages_subtitle">
+						Carefully crafted Hajj, Umrah, and Ziyarat packages designed for ultimate comfort, seamless logistics, and spiritual devotion.
+					</p>
+				</div><!--/.gallery-header-->
+				<div class="packages-content">
+					<div class="row">
+
+						<div class="col-md-4 col-sm-6">
+							<div class="single-package-item">
+								<img src="assets/images/packages/p1.jpg" alt="5-Star Kaaba View VIP Hajj Package">
+								<div class="single-package-item-txt">
+									<h3><span data-i18n="pkg_1_title">5-Star Kaaba View Hajj</span> <span class="pull-right" data-i18n="pkg_1_price">350,000 EGP</span></h3>
+									<div class="packages-para">
+										<p>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_1_f1">14 Days VIP Hajj</span></span>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_1_f2">5-Star Haram Suite</span></span>
+										</p>
+										<p>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_1_f3">Private Mina Tent</span></span>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_1_f4">Dedicated Scholar</span></span>
+										</p>
+										<p data-i18n="pkg_1_desc">Experience Hajj in royal luxury. Direct Kaaba view suite at Makkah Clock Royal Tower, VIP private air-conditioned transport, and gourmet halal dining.</p>
+									</div><!--/.packages-para-->
+									<div class="packages-review">
+										<p>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<span data-i18n="pkg_1_rev">148 reviews</span>
+										</p>
+									</div><!--/.packages-review-->
+									<div class="about-btn">
+										<button class="about-view packages-btn" onclick="alert('Registration initiated! Our VIP travel counselor will contact you shortly.')" data-i18n="pkg_btn">
+											book now
+										</button>
+									</div><!--/.about-btn-->
+								</div><!--/.single-package-item-txt-->
+							</div><!--/.single-package-item-->
+						</div><!--/.col-->
+
+						<div class="col-md-4 col-sm-6">
+							<div class="single-package-item">
+								<img src="assets/images/packages/p2.jpg" alt="Royal Medina Serenity Umrah Package">
+								<div class="single-package-item-txt">
+									<h3><span data-i18n="pkg_2_title">Royal Medina Umrah</span> <span class="pull-right" data-i18n="pkg_2_price">120,000 EGP</span></h3>
+									<div class="packages-para">
+										<p>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_2_f1">10 Days Umrah</span></span>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_2_f2">Rawdah Access</span></span>
+										</p>
+										<p>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_2_f3">5-Star Oberoi Medina</span></span>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_2_f4">VIP Ziyarat Tours</span></span>
+										</p>
+										<p data-i18n="pkg_2_desc">Immerse yourself in the tranquility of Medina and the majesty of Mecca. Includes guaranteed Rawdah permits, private bullet train transfer, and scholar talks.</p>
+									</div><!--/.packages-para-->
+									<div class="packages-review">
+										<p>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<span data-i18n="pkg_2_rev">312 reviews</span>
+										</p>
+									</div><!--/.packages-review-->
+									<div class="about-btn">
+										<button class="about-view packages-btn" onclick="alert('Registration initiated! Our VIP travel counselor will contact you shortly.')" data-i18n="pkg_btn">
+											book now
+										</button>
+									</div><!--/.about-btn-->
+								</div><!--/.single-package-item-txt-->
+							</div><!--/.single-package-item-->
+						</div><!--/.col-->
+
+						<div class="col-md-4 col-sm-6">
+							<div class="single-package-item">
+								<img src="assets/images/packages/p3.jpg" alt="Al-Aqsa Sanctuary Journey">
+								<div class="single-package-item-txt">
+									<h3><span data-i18n="pkg_3_title">Al-Aqsa Sanctuary Tour</span> <span class="pull-right" data-i18n="pkg_3_price">95,000 EGP</span></h3>
+									<div class="packages-para">
+										<p>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_3_f1">7 Days Jerusalem</span></span>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_3_f2">Historic Hotel</span></span>
+										</p>
+										<p>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_3_f3">Dome of the Rock</span></span>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_3_f4">Hebron & Bethlehem</span></span>
+										</p>
+										<p data-i18n="pkg_3_desc">A deeply emotional journey to the third holiest sanctuary in Islam. Expert historians guiding you through the blessed courtyards, olive groves, and ancient gates.</p>
+									</div><!--/.packages-para-->
+									<div class="packages-review">
+										<p>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<span data-i18n="pkg_3_rev">96 reviews</span>
+										</p>
+									</div><!--/.packages-review-->
+									<div class="about-btn">
+										<button class="about-view packages-btn" onclick="alert('Registration initiated! Our VIP travel counselor will contact you shortly.')" data-i18n="pkg_btn">
+											book now
+										</button>
+									</div><!--/.about-btn-->
+								</div><!--/.single-package-item-txt-->
+							</div><!--/.single-package-item-->
+						</div><!--/.col-->
+
+						<div class="col-md-4 col-sm-6">
+							<div class="single-package-item">
+								<img src="assets/images/packages/p4.jpg" alt="Ramadan Last 10 Days Itikaf Special">
+								<div class="single-package-item-txt">
+									<h3><span data-i18n="pkg_4_title">Ramadan Last 10 Days</span> <span class="pull-right" data-i18n="pkg_4_price">195,000 EGP</span></h3>
+									<div class="packages-para">
+										<p>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_4_f1">12 Days Laylat al-Qadr</span></span>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_4_f2">VIP Haram Suite</span></span>
+										</p>
+										<p>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_4_f3">Suhoor/Iftar Buffet</span></span>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_4_f4">Qiyam al-Layl Guide</span></span>
+										</p>
+										<p data-i18n="pkg_4_desc">Witness the millions in prayer during the most blessed nights of the year. Includes private dining overlooking the Kaaba and dedicated Itikaf arrangements.</p>
+									</div><!--/.packages-para-->
+									<div class="packages-review">
+										<p>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<span data-i18n="pkg_4_rev">254 reviews</span>
+										</p>
+									</div><!--/.packages-review-->
+									<div class="about-btn">
+										<button class="about-view packages-btn" onclick="alert('Registration initiated! Our VIP travel counselor will contact you shortly.')" data-i18n="pkg_btn">
+											book now
+										</button>
+									</div><!--/.about-btn-->
+								</div><!--/.single-package-item-txt-->
+							</div><!--/.single-package-item-->
+						</div><!--/.col-->
+
+						<div class="col-md-4 col-sm-6">
+							<div class="single-package-item">
+								<img src="assets/images/packages/p5.jpg" alt="Historic Ziyarat & Cave Hira Exploration">
+								<div class="single-package-item-txt">
+									<h3><span data-i18n="pkg_5_title">Historic Ziyarat Trek</span> <span class="pull-right" data-i18n="pkg_5_price">105,000 EGP</span></h3>
+									<div class="packages-para">
+										<p>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_5_f1">9 Days Mecca & Medina</span></span>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_5_f2">Cave Hira Visit</span></span>
+										</p>
+										<p>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_5_f3">Mount Uhud & Quba</span></span>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_5_f4">5-Star Comfort</span></span>
+										</p>
+										<p data-i18n="pkg_5_desc">Walk in the footsteps of the Prophet (PBUH). A specialized itinerary focusing on deep historical exploration of Cave Hira, Cave Thawr, and the battlefields of Uhud.</p>
+									</div><!--/.packages-para-->
+									<div class="packages-review">
+										<p>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-half-o"></i>
+											<span data-i18n="pkg_5_rev">180 reviews</span>
+										</p>
+									</div><!--/.packages-review-->
+									<div class="about-btn">
+										<button class="about-view packages-btn" onclick="alert('Registration initiated! Our VIP travel counselor will contact you shortly.')" data-i18n="pkg_btn">
+											book now
+										</button>
+									</div><!--/.about-btn-->
+								</div><!--/.single-package-item-txt-->
+							</div><!--/.single-package-item-->
+						</div><!--/.col-->
+
+						<div class="col-md-4 col-sm-6">
+							<div class="single-package-item">
+								<img src="assets/images/packages/p6.jpg" alt="AlUla & Hijaz Heritage Tour">
+								<div class="single-package-item-txt">
+									<h3><span data-i18n="pkg_6_title">AlUla & Hijaz Heritage</span> <span class="pull-right" data-i18n="pkg_6_price">145,000 EGP</span></h3>
+									<div class="packages-para">
+										<p>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_6_f1">7 Days Saudi Heritage Trek</span></span>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_6_f2">Madain Saleh & Elephant Rock</span></span>
+										</p>
+										<p>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_6_f3">Quba & Historic Taif Tour</span></span>
+											<span><i class="fa fa-angle-right"></i> <span data-i18n="pkg_6_f4">Halal Gourmet Dining</span></span>
+										</p>
+										<p data-i18n="pkg_6_desc">Explore the rich Islamic civilization and ancient heritage across Saudi Arabia. Journey through historic Medina, AlUla, Madain Saleh, and Taif with certified historians and 5-star luxury stays.</p>
+									</div><!--/.packages-para-->
+									<div class="packages-review">
+										<p>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<span data-i18n="pkg_6_rev">210 reviews</span>
+										</p>
+									</div><!--/.packages-review-->
+									<div class="about-btn">
+										<button class="about-view packages-btn" onclick="alert('Registration initiated! Our VIP travel counselor will contact you shortly.')" data-i18n="pkg_btn">
+											book now
+										</button>
+									</div><!--/.about-btn-->
+								</div><!--/.single-package-item-txt-->
+							</div><!--/.single-package-item-->
+						</div><!--/.col-->
+
+					</div><!--/.row-->
+				</div><!--/.packages-content-->
+			</div><!--/.container-->
+		</section><!--/.packages-->
+		<!--packages end-->
+
+		<!-- testemonial Start -->
+		<section class="testemonial">
+			<div class="container">
+				<div class="gallary-header text-center">
+					<h2><span data-i18n="testm_title">Pilgrims' </span><span data-i18n="testm_title_span">Reflections</span></h2>
+					<p data-i18n="testm_subtitle">
+						Hear from thousands of blessed families and pilgrims who trusted Nur Al-Haramain with their journey of a lifetime.
+					</p>
+				</div><!--/.gallery-header-->
+				<div class="owl-carousel owl-theme" id="testemonial-carousel">
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="assets/images/client/testimonial1.jpg" alt="Pilgrim testimonial" />
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p data-i18n="testm_1_txt">
+									“Performing Hajj with Nur Al-Haramain was a truly transformative spiritual experience. The VIP Kaaba view room brought tears to our eyes, and our scholar Imam Zaid answered every question with kindness.”
+								</p>
+								<h3><a href="#" data-i18n="testm_1_author">Sheikh Abdullah Al-Mansoor</a></h3>
+								<h4 data-i18n="testm_1_loc">Riyadh, Saudi Arabia</h4>
+							</div><!--/.home1-testm-txt-->
+						</div><!--/.home1-testm-single-->
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="assets/images/client/testimonial2.jpg" alt="Pilgrim testimonial" />
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p data-i18n="testm_2_txt">
+									“The organization in Medina was flawless. Our guide explained the history of Al-Masjid an-Nabawi with such profound love and knowledge. The 5-star hotel was literally steps away from the women's gate!”
+								</p>
+								<h3><a href="#" data-i18n="testm_2_author">Dr. Fatima Zahra</a></h3>
+								<h4 data-i18n="testm_2_loc">Cairo, Egypt</h4>
+							</div><!--/.home1-testm-txt-->
+						</div><!--/.home1-testm-single-->
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="assets/images/client/testimonial1.jpg" alt="Pilgrim testimonial" />
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p data-i18n="testm_3_txt">
+									“From the fast visa processing to the private Haramain high-speed train transfer between Mecca and Medina, everything was seamless. Highly recommended for any family looking for peace of mind during Umrah!”
+								</p>
+								<h3><a href="#" data-i18n="testm_3_author">Tariq & Amina Rahman</a></h3>
+								<h4 data-i18n="testm_3_loc">Jeddah, Saudi Arabia</h4>
+							</div><!--/.home1-testm-txt-->
+						</div><!--/.home1-testm-single-->
+					</div><!--/.item-->
+
+				</div><!--/.testemonial-carousel-->
+			</div><!--/.container-->
+		</section><!--/.testimonial-->
+		<!-- testemonial End -->
+
+		<!--special-offer start-->
+		<section id="spo" class="special-offer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="single-special-offer">
+							<div class="single-special-visual-box">
+								<div class="single-special-shape-txt">
+									<h3 data-i18n="spo_badge">Limited Time Spiritual Offer</h3>
+									<h4><span data-i18n="spo_title_1">40%</span><br><span data-i18n="spo_title_2">off VIP Umrah</span></h4>
+									<p><span data-i18n="spo_price_1">89,900 EGP</span><br><span data-i18n="spo_price_2">per pilgrim</span></p>
+								</div><!--/.single-special-shape-txt-->
+							</div><!--/.single-special-visual-box-->
+							<div class="single-special-offer-txt">
+								<span data-i18n="spo_core">core features</span>
+								<h2 data-i18n="spo_main_title">Royal 5-Star Family Umrah Package</h2>
+								<div class="packages-para special-offer-para">
+									<p>
+										<span><i class="fa fa-check-circle" style="color:#d4af37;"></i> <span data-i18n="spo_f1">10 Days in Mecca & Medina</span></span>
+										<span><i class="fa fa-check-circle" style="color:#d4af37;"></i> <span data-i18n="spo_f2">5-Star Haram Front Hotels</span></span>
+									</p>
+									<p>
+										<span><i class="fa fa-check-circle" style="color:#d4af37;"></i> <span data-i18n="spo_f3">Private SUV Airport Transfer</span></span>
+										<span><i class="fa fa-check-circle" style="color:#d4af37;"></i> <span data-i18n="spo_f4">Guaranteed Rawdah Access</span></span>
+									</p>
+									<p class="offer-para" data-i18n="spo_desc">
+										Book a royal 5-star family suite in Mecca and Medina this season and receive complimentary VIP airport transfers, private guided historical Ziyarat tours, and 24/7 dedicated concierge service. Let us handle every detail while you focus on devotion.
+									</p>
+								</div><!--/.packages-para-->
+								<div class="packages-review special-offer-review">
+									<p>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<span data-i18n="spo_rev">520 reviews</span>
+									</p>
+								</div><!--/.packages-review-->
+								<div class="offer-btn-group">
+									<button class="offfer-btn" onclick="scrollToSection('pack')" data-i18n="spo_btn_view">
+										view package
+									</button>
+									<button class="book-now-btn" onclick="alert('Thank you! Our VIP Umrah counselor is preparing your package itinerary.')" data-i18n="spo_btn_book">
+										book now
+									</button>
+								</div><!--/.offer-btn-group-->
+							</div><!--/.single-special-offer-txt-->
+						</div><!--/.single-special-offer-->
+					</div><!--/.col-->
+				</div><!--/.row-->
+			</div><!--/.container-->
+		</section><!--/.special-offer end-->
+
+		<!--blog start-->
+		<section id="blog" class="blog">
+			<div class="container">
+				<div class="gallary-header text-center">
+					<h2><span data-i18n="blog_title">Spiritual </span><span data-i18n="blog_title_span">Guidance & Articles</span></h2>
+					<p data-i18n="blog_subtitle">
+						Prepare your heart, mind, and soul with our curated scholarly articles on Hajj rituals, Umrah preparation, and sacred history.
+					</p>
+				</div><!--/.gallery-header-->
+				<div class="blog-content">
+					<div class="row">
+
+						<div class="col-md-4 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumbnail-img">
+									<img src="assets/images/blog/b1.jpg" alt="Kaaba Evening Prayers" loading="lazy" />
+									<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
+								</div><!--/.thumbnail-img-->
+								<div class="caption">
+									<span class="blog-meta" data-i18n="blog_1_meta">👤 By Imam Zaid  |  📅 July 15, 2026</span>
+									<h2 class="blog-title" data-i18n="blog_1_title">The Ultimate Guide to Preparing for Your First Hajj</h2>
+									<div class="blog-txt">
+										<h3>
+											<a href="#" data-i18n="blog_1_sub">
+												Physical, Spiritual, and Practical Checklist Before Arriving in Mecca
+											</a>
+										</h3>
+										<p data-i18n="blog_1_desc">
+											Everything you need to know about physical stamina, spiritual purity, Ihram rules, and logistical preparation before stepping onto the blessed soil of Mina and Arafat.
+										</p>
+										<a href="#" class="btn-read-more" data-i18n="blog_read_more">Read Full Guide ➔</a>
+									</div><!--/.blog-txt-->
+								</div><!--/.caption-->
+							</div><!--/.thumbnail-->
+						</div><!--/.col-->
+
+						<div class="col-md-4 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumbnail-img">
+									<img src="assets/images/blog/b2.jpg" alt="Prophet Mosque Medina" loading="lazy" />
+									<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
+								</div><!--/.thumbnail-img-->
+								<div class="caption">
+									<span class="blog-meta" data-i18n="blog_2_meta">👤 By Dr. Hisham  |  📅 June 28, 2026</span>
+									<h2 class="blog-title" data-i18n="blog_2_title">Spiritual Etiquette: Visiting Al-Masjid an-Nabawi</h2>
+									<div class="blog-txt">
+										<h3>
+											<a href="#" data-i18n="blog_2_sub">
+												Proper Adab & Supplications in the Blessed Rawdah and Courtyards
+											</a>
+										</h3>
+										<p data-i18n="blog_2_desc">
+											A heartfelt scholar's guide on the proper adab (etiquette), peace greetings, and supplications when sending blessings upon the Prophet Muhammad (PBUH) in Medina.
+										</p>
+										<a href="#" class="btn-read-more" data-i18n="blog_read_more">Read Full Guide ➔</a>
+									</div><!--/.blog-txt-->
+								</div><!--/.caption-->
+							</div><!--/.thumbnail-->
+						</div><!--/.col-->
+
+						<div class="col-md-4 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumbnail-img">
+									<img src="assets/images/blog/b3.jpg" alt="Mount Arafat Sunset" loading="lazy" />
+									<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
+								</div><!--/.thumbnail-img-->
+								<div class="caption">
+									<span class="blog-meta" data-i18n="blog_3_meta">👤 By Sister Maryam  |  📅 June 10, 2026</span>
+									<h2 class="blog-title" data-i18n="blog_3_title">Sacred Ziyarat: Top 10 Historical Landmarks</h2>
+									<div class="blog-txt">
+										<h3>
+											<a href="#" data-i18n="blog_3_sub">
+												Explore Cave Hira, Mount Uhud, and Masjid Quba During Your Umrah
+											</a>
+										</h3>
+										<p data-i18n="blog_3_desc">
+											Explore the profound history behind Jabal al-Nour (Cave Hira), Mount Uhud, the Quba Mosque, and other blessed sites that every pilgrim should visit and reflect upon.
+										</p>
+										<a href="#" class="btn-read-more" data-i18n="blog_read_more">Read Full Guide ➔</a>
+									</div><!--/.blog-txt-->
+								</div><!--/.caption-->
+							</div><!--/.thumbnail-->
+						</div><!--/.col-->
+
+					</div><!--/.row-->
+				</div><!--/.blog-content-->
+			</div><!--/.container-->
+		</section><!--/.blog-->
+		<!--blog end-->
+
+		<!--subscribe start-->
+		<section id="subs" class="subscribe">
+			<div class="container">
+				<div class="subscribe-title text-center">
+					<h2>
+						<span data-i18n="subs_title">Join Our </span><span data-i18n="subs_title_span">Pilgrims' Community</span>
+					</h2>
+					<p data-i18n="subs_desc">
+						Subscribe to receive exclusive Ramadan Umrah discounts, Hajj 2026 registration alerts, and weekly spiritual reflections.
+					</p>
+				</div>
+				<form onsubmit="event.preventDefault(); alert('Barakallah feek! You have successfully subscribed to Nur Al-Haramain updates.');">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+							<div class="custom-input-group">
+								<input type="email" class="form-control" placeholder="Enter your email address..." data-i18n-placeholder="subs_placeholder" required>
+								<button type="submit" class="appsLand-btn subscribe-btn" data-i18n="subs_btn">Subscribe</button>
+								<div class="clearfix"></div>
+								<i class="fa fa-envelope"></i>
+							</div>
+
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+		<!--subscribe end-->
+
+		<!-- footer-copyright start -->
+		<footer class="footer-copyright">
+			<div class="container">
+				<div class="footer-content">
+					<div class="row">
+
+						<div class="col-sm-4">
+							<div class="single-footer-item">
+								<div class="footer-logo">
+									<a href="index.html">
+										<span data-i18n="footer_logo_text">Nur Al-Haramain </span><span data-i18n="footer_logo_span">Pilgrimage</span>
+									</a>
+									<p data-i18n="footer_about_desc">
+										Your trusted companion for luxury Hajj, Umrah, and worldwide Islamic heritage tours. Serving pilgrims with dignity, 5-star comfort, and authentic devotion since 2010.
+									</p>
+								</div>
+							</div><!--/.single-footer-item-->
+						</div><!--/.col-->
+
+						<div class="col-sm-3">
+							<div class="single-footer-item">
+								<h2 data-i18n="footer_col2_title">Quick Links</h2>
+								<div class="single-footer-txt">
+									<p><a href="#home" data-i18n="fl_home">Home</a></p>
+									<p><a href="#services" data-i18n="fl_services">Our VIP Services</a></p>
+									<p><a href="#pack" data-i18n="fl_packages">Hajj & Umrah Packages</a></p>
+									<p><a href="#gallery" data-i18n="fl_gallery">Sacred Photo Gallery</a></p>
+									<p><a href="#blog" data-i18n="fl_blog">Spiritual Guidance Articles</a></p>
+									<p><a href="#subs" data-i18n="fl_subs">Join Newsletter</a></p>
+								</div><!--/.single-footer-txt-->
+							</div><!--/.single-footer-item-->
+
+						</div><!--/.col-->
+
+						<div class="col-sm-2">
+							<div class="single-footer-item">
+								<h2 data-i18n="footer_col3_title">Destinations</h2>
+								<div class="single-footer-txt">
+									<p><a href="#pack" data-i18n="fd_mecca">Mecca, Saudi Arabia</a></p>
+									<p><a href="#pack" data-i18n="fd_medina">Medina, Saudi Arabia</a></p>
+									<p><a href="#pack" data-i18n="fd_jerusalem">Jerusalem Sanctuary</a></p>
+									<p><a href="#pack" data-i18n="fd_andalusia">AlUla & Taif, Saudi Arabia</a></p>
+									<p><a href="#pack" data-i18n="fd_istanbul">Istanbul, Turkey</a></p>
+								</div><!--/.single-footer-txt-->
+							</div><!--/.single-footer-item-->
+						</div><!--/.col-->
+
+						<div class="col-sm-3">
+							<div class="single-footer-item text-left">
+								<h2 data-i18n="footer_col4_title">VIP Concierge</h2>
+								<div class="single-footer-txt text-left">
+									<p data-i18n="fc_phone">📞 +966 9200 80000 / +20 100 800 9000</p>
+									<p class="foot-email"><span data-i18n="fc_email">✉️ concierge@nuralharamain.com</span></p>
+									<p data-i18n="fc_addr1">📍 Clock Royal Tower, Abraj Al Bait, Suite 1400</p>
+									<p data-i18n="fc_addr2">Makkah, Saudi Arabia | New Cairo, Egypt</p>
+								</div><!--/.single-footer-txt-->
+							</div><!--/.single-footer-item-->
+						</div><!--/.col-->
+
+					</div><!--/.row-->
+
+				</div><!--/.footer-content-->
+				<hr>
+				<div class="foot-icons">
+					<ul class="footer-social-links list-inline list-unstyled">
+		                <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+		                <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		                <li><a href="#" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+		        	</ul>
+		        	<p data-i18n="footer_copy">&copy; 2026 Nur Al-Haramain Islamic Pilgrimage Agency. All Rights Reserved. Crafted with devotion.</p>
+
+		        </div><!--/.foot-icons-->
+				<div id="scroll-Top">
+					<i class="fa fa-angle-double-up return-to-top" id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+				</div><!--/.scroll-Top-->
+			</div><!-- /.container-->
+
+		</footer><!-- /.footer-copyright-->
+		<!-- footer-copyright end -->
+
+
+		<script src="assets/js/jquery.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+		<!--modernizr.min.js-->
+		<script  src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+
+		<!--bootstrap.min.js-->
+		<script  src="assets/js/bootstrap.min.js"></script>
+
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+
+		<!-- jquery.filterizr.min.js -->
+		<script src="assets/js/jquery.filterizr.min.js"></script>
+
+		<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+		<!--jquery-ui.min.js-->
+        <script src="assets/js/jquery-ui.min.js"></script>
+
+        <!-- counter js -->
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+
+		<!--owl.carousel.js-->
+        <script  src="assets/js/owl.carousel.min.js"></script>
+
+        <!-- jquery.sticky.js -->
+		<script src="assets/js/jquery.sticky.js"></script>
+
+        <!--datepicker.js-->
+        <script  src="assets/js/datepicker.js"></script>
+
+		<!--Bilingual Translations Dictionary & Switcher-->
+		<script src="assets/js/translations.js"></script>
+
+		<!--Custom JS-->
+		<script src="assets/js/custom.js"></script>
+
+
+	</body>
+
+</html>
