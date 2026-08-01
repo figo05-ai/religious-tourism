@@ -4,9 +4,9 @@
 
 const translations = {
   "en": {
-    "site_title": "Nur Al-Haramain | Luxury Islamic Pilgrimage (Hajj & Umrah)",
-    "logo_text": "Nur Al-Haramain ",
-    "logo_span": "Pilgrimage",
+    "site_title": "Nur Al-Haramain | Luxury Religious Tourism",
+    "logo_text": "Nur Al-",
+    "logo_span": "Haramain",
     "nav_home": "Home",
     "nav_services": "Services",
     "nav_gallery": "Sacred Sites",
@@ -17,8 +17,8 @@ const translations = {
     "nav_book_btn": "Book Your Umrah",
     "lang_btn": "<i class=\"fa fa-globe\"></i> AR | EN",
 
-    "hero_title": "Experience Sacred Journeys with ",
-    "hero_title_span": "Spiritual Serenity",
+    "hero_title": "Together to ",
+    "hero_title_span": "the House of Allah",
     "hero_desc": "Embark on a blessed Hajj, Umrah, or Ziyarat journey with VIP 5-star accommodations overlooking Al-Masjid al-Haram, guided by world-renowned Islamic scholars.",
     "hero_btn": "Explore VIP Packages",
 
@@ -299,8 +299,8 @@ const translations = {
     "subs_placeholder": "Enter your email address...",
     "subs_btn": "Subscribe",
 
-    "footer_logo_text": "Nur Al-Haramain ",
-    "footer_logo_span": "Pilgrimage",
+    "footer_logo_text": "Nur Al-",
+    "footer_logo_span": "Haramain",
     "footer_about_desc": "Your trusted companion for luxury Hajj, Umrah, and worldwide Islamic heritage tours. Serving pilgrims with dignity, 5-star comfort, and authentic devotion since 2010.",
     "footer_col2_title": "Quick Links",
     "fl_home": "Home",
@@ -323,13 +323,13 @@ const translations = {
     "fc_addr1": "📍 Clock Royal Tower, Abraj Al Bait, Suite 1400",
     "fc_addr2": "Makkah, Saudi Arabia | New Cairo, Egypt",
 
-    "footer_copy": "© 2026 Nur Al-Haramain Islamic Pilgrimage Agency. All Rights Reserved. Crafted with devotion."
+    "footer_copy": "© 2026 Nur Al-Haramain Luxury Religious Tourism. All Rights Reserved. Crafted with devotion."
   },
 
   "ar": {
-    "site_title": "نور الحرمين | للحج والعمرة والسياحة الدينية الفاخرة",
-    "logo_text": "نور الحرمين ",
-    "logo_span": "للحج والعمرة",
+    "site_title": "نور الحرمين | السياحة الدينية الفاخرة",
+    "logo_text": "نور ",
+    "logo_span": "الحرمين",
     "nav_home": "الرئيسية",
     "nav_services": "خدماتنا",
     "nav_gallery": "المعالم المقدسة",
@@ -340,8 +340,8 @@ const translations = {
     "nav_book_btn": "احجز عمرتك الآن",
     "lang_btn": "<i class=\"fa fa-globe\"></i> EN | AR",
 
-    "hero_title": "عيشوا نفحات الرحلة المباركة مع ",
-    "hero_title_span": "السكينة الروحانية",
+    "hero_title": "معاً إلى ",
+    "hero_title_span": "بيت الله",
     "hero_desc": "انطلقوا في رحلة مباركة لأداء مناسك الحج والعمرة وزيارة المقدسات مع إقامة فاخرة 5 نجوم تطل مباشرة على المسجد الحرام، برفقة نخبة من كبار العلماء والمرشدين.",
     "hero_btn": "استكشف باقات الـ VIP",
 
@@ -622,8 +622,8 @@ const translations = {
     "subs_placeholder": "أدخل البريد الإلكتروني الخاص بك...",
     "subs_btn": "اشتراك الآن",
 
-    "footer_logo_text": "نور الحرمين ",
-    "footer_logo_span": "للحج والعمرة",
+    "footer_logo_text": "نور ",
+    "footer_logo_span": "الحرمين",
     "footer_about_desc": "رفيقكم الموثوق لرحلات الحج والعمرة والسياحة الدينية الفاخرة حول العالم. نتشرف بخدمة ضيوف الرحمن بكرامة، وراحة 5 نجوم، وإرشاد شرعي موثوق منذ عام 2010.",
     "footer_col2_title": "روابط سريعة",
     "fl_home": "الرئيسية",
@@ -646,7 +646,7 @@ const translations = {
     "fc_addr1": "📍 أبراج الساعة الملكية، وقف الملك عبد العزيز، جناح 1400",
     "fc_addr2": "مكة المكرمة، السعودية | التجمع الخامس، القاهرة، مصر",
 
-    "footer_copy": "© 2026 وكالة نور الحرمين للحج والعمرة والسياحة الدينية الفاخرة. جميع الحقوق محفوظة. تم التطوير بكل إتقان وتفانٍ."
+    "footer_copy": "© 2026 وكالة نور الحرمين للسياحة الدينية الفاخرة. جميع الحقوق محفوظة. تم التطوير بكل إتقان وتفانٍ."
   }
 };
 
